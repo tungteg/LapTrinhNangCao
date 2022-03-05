@@ -18,7 +18,6 @@ int main(){
 	sort(arr, arr+n);
 	
 	for(int i=0;i<n-1;i++){
-		int count = 0;
 		if(arr[i]== arr[i+1]){
 			for(int j=i+1;j<n;j++){
 				if(arr[i]==arr[j]) arr[j]=-1;
