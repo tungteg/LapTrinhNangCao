@@ -22,7 +22,7 @@ int main(){
 		if(arr[i]>x) break;
 		k++;
 	}
-	for(int i=n;i>k-1;i--){
+	for(int i=n;i>k;i--){
 		arr[i] = arr[i-1];
 	}
 	arr[k] = x;
